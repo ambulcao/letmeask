@@ -5,6 +5,7 @@ import { auth, firebase } from '../services/firebase';
 import illustrationImg from '../assets/illustration.svg';
 import logoImg from '../assets/logo.svg';
 import googleIconImg from '../assets/google-icon.svg';
+
 import { Button } from '../components/Button';
 
 import '../styles/auth.scss';
@@ -19,7 +20,6 @@ export function Home() {
             console.log(result);
             history.push('/rooms/new');
         })
-
     }
 
     return (

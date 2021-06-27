@@ -4,6 +4,7 @@ import illustrationImg from '../assets/illustration.svg';
 import logoImg from '../assets/logo.svg';
 import { Button } from '../components/Button';
 
+
 import '../styles/auth.scss';
 
 export function NewRoom() {
